@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+*,
+*::after,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: rgb(0, 196, 241);
+    background: radial-gradient(circle, rgba(0, 196, 241, 1) 0%, rgba(0, 142, 255, 1) 40%);
+    color: #e1f4ff;
+}
+
+.visibility2 {
+    display: none;
+    align-items: center;
+    gap: 0.2vw;
+    margin-block: 1rem;
+}
+
+input[type="search"] {
+    width: 38rem;
+    height: 2.5rem;
+    outline: none;
+    border: 1px solid #e1f4ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: default;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+input[type="search"]::placeholder {
+    color: #e1f4ff;
+}
+
+.visibility2 i {
+    font-size: 1rem;
+    color: #0077ff;
+}
+
+.visibility2>button {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.visibility1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 2rem;
+}
+
+.weatherSearchSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    margin-block: 1.5rem;
+}
+
+.weatherSearchSection>button {
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: #0000003d 0px 3px 8px;
+}
+
+.weatherDisplaySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    cursor: default;
+}
+
+.countryCity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flag {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.weatherImg {
+    margin: -1.5rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.temperature {
+    font-size: 2rem;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weatherCondition {
+    display: flex;
+    gap: 4.3rem;
+    margin-block: 1rem;
+    cursor: default;
+}
+
+.windspeed,
+.humidity,
+.clouds {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    cursor: default;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.windspeed {
+    text-transform: lowercase;
+}
+
+.weatherCondition {
+    font-size: 0.8rem;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+}
+
+.visibility4 {
+    display: none;
+    font-size: 2rem;
+}
+
+input,
+.weatherSearchSection>button,
+.windspeed,
+.humidity,
+.clouds {
+    background: rgb(130, 227, 250);
+    background: radial-gradient(circle, rgba(130, 227, 250, 1) 0%, rgba(0, 142, 255, 1) 100%);
+    border: 1px solid #e1f4ff;
+}
+
+.weatherSearchSection>button {
+    color: #e1f4ff;
+}
+
+input {
+    color: #e1f4ff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1>weather app</h1>
+        <div class="weatherSearchSection">
+            <button yourWeather>your weather</button>
+            <button searchWeather>search weather</button>
+        </div>
+        <div class="visibility1">
+            <div class="weatherDisplaySection">
+                <div class="countryCity">
+                    <div class="city"></div>
+                    <img class="flag" src="" alt="">
+                </div>
+                <div class="weather"></div>
+                <div class="temperatureImg">
+                    <img class="weatherImg" src="" alt="">
+                </div>
+                <div class="temperature"></div>
+            </div>
+            <div class="weatherCondition">
+                <div class="windspeed">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>windspeed</div>
+                    <div class="windPercent"></div>
+                </div>
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>humidity</div>
+                    <div class="humidPercent"></div>
+                </div>
+                <div class="clouds">
+                    <i class="fa-solid fa-cloud"></i>
+                    <div>clouds</div>
+                    <div class="cloudPercent"></div>
+                </div>
+            </div>
+        </div>
+        <div class="visibility2">
+            <input placeholder="Search the city..." type="search" name="" id="">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="visibility3">
+            <img class="spinner" src="Spinner-1s-217px.gif" alt="">
+        </div>
+        <div class="visibility4">Sorry! No city present with the name entered</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
